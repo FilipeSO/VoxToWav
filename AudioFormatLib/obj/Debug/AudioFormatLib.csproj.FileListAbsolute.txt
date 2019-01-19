@@ -1,0 +1,18 @@
+C:\Projetos\Trabalho\Análisador de Operação\ClassLibrary1\bin\Debug\ClassLibrary1.dll
+C:\Projetos\Trabalho\Análisador de Operação\ClassLibrary1\bin\Debug\ClassLibrary1.pdb
+C:\Projetos\Trabalho\Análisador de Operação\ClassLibrary1\bin\Debug\NAudio.dll
+C:\Projetos\Trabalho\Análisador de Operação\ClassLibrary1\bin\Debug\NAudio.xml
+C:\Projetos\Trabalho\Análisador de Operação\ClassLibrary1\obj\Debug\AudioFormatLib.csprojAssemblyReference.cache
+C:\Projetos\Trabalho\Análisador de Operação\ClassLibrary1\obj\Debug\AudioFormatLib.csproj.CoreCompileInputs.cache
+C:\Projetos\Trabalho\Análisador de Operação\ClassLibrary1\obj\Debug\AudioFormatLib.csproj.CopyComplete
+C:\Projetos\Trabalho\Análisador de Operação\ClassLibrary1\obj\Debug\ClassLibrary1.dll
+C:\Projetos\Trabalho\Análisador de Operação\ClassLibrary1\obj\Debug\ClassLibrary1.pdb
+C:\Projetos\Trabalho\VoxToWav\AudioFormatLib\bin\Debug\NAudio.dll
+C:\Projetos\Trabalho\VoxToWav\AudioFormatLib\bin\Debug\NAudio.xml
+C:\Projetos\Trabalho\VoxToWav\AudioFormatLib\obj\Debug\AudioFormatLib.csprojAssemblyReference.cache
+C:\Projetos\Trabalho\VoxToWav\AudioFormatLib\obj\Debug\AudioFormatLib.csproj.CoreCompileInputs.cache
+C:\Projetos\Trabalho\VoxToWav\AudioFormatLib\obj\Debug\AudioFormatLib.csproj.CopyComplete
+C:\Projetos\Trabalho\VoxToWav\AudioFormatLib\bin\Debug\AudioFormatLib.dll
+C:\Projetos\Trabalho\VoxToWav\AudioFormatLib\bin\Debug\AudioFormatLib.pdb
+C:\Projetos\Trabalho\VoxToWav\AudioFormatLib\obj\Debug\AudioFormatLib.dll
+C:\Projetos\Trabalho\VoxToWav\AudioFormatLib\obj\Debug\AudioFormatLib.pdb

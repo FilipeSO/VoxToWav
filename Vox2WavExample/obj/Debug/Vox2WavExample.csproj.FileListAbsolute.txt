@@ -1,0 +1,28 @@
+C:\Projetos\Trabalho\Análisador de Operação\Vox2WavExample\bin\Debug\ANOPER.exe.config
+C:\Projetos\Trabalho\Análisador de Operação\Vox2WavExample\bin\Debug\ANOPER.exe
+C:\Projetos\Trabalho\Análisador de Operação\Vox2WavExample\bin\Debug\ANOPER.pdb
+C:\Projetos\Trabalho\Análisador de Operação\Vox2WavExample\bin\Debug\ClassLibrary1.dll
+C:\Projetos\Trabalho\Análisador de Operação\Vox2WavExample\bin\Debug\NAudio.dll
+C:\Projetos\Trabalho\Análisador de Operação\Vox2WavExample\bin\Debug\ClassLibrary1.pdb
+C:\Projetos\Trabalho\Análisador de Operação\Vox2WavExample\bin\Debug\NAudio.xml
+C:\Projetos\Trabalho\Análisador de Operação\Vox2WavExample\obj\Debug\Vox2WavExample.csprojAssemblyReference.cache
+C:\Projetos\Trabalho\Análisador de Operação\Vox2WavExample\obj\Debug\ANOPER.Properties.Resources.resources
+C:\Projetos\Trabalho\Análisador de Operação\Vox2WavExample\obj\Debug\Vox2WavExample.csproj.GenerateResource.cache
+C:\Projetos\Trabalho\Análisador de Operação\Vox2WavExample\obj\Debug\Vox2WavExample.csproj.CoreCompileInputs.cache
+C:\Projetos\Trabalho\Análisador de Operação\Vox2WavExample\obj\Debug\Vox2WavExample.csproj.CopyComplete
+C:\Projetos\Trabalho\Análisador de Operação\Vox2WavExample\obj\Debug\ANOPER.exe
+C:\Projetos\Trabalho\Análisador de Operação\Vox2WavExample\obj\Debug\ANOPER.pdb
+C:\Projetos\Trabalho\VoxToWav\Vox2WavExample\bin\Debug\NAudio.dll
+C:\Projetos\Trabalho\VoxToWav\Vox2WavExample\bin\Debug\NAudio.xml
+C:\Projetos\Trabalho\VoxToWav\Vox2WavExample\obj\Debug\Vox2WavExample.csprojAssemblyReference.cache
+C:\Projetos\Trabalho\VoxToWav\Vox2WavExample\obj\Debug\Vox2WavExample.csproj.GenerateResource.cache
+C:\Projetos\Trabalho\VoxToWav\Vox2WavExample\obj\Debug\Vox2WavExample.csproj.CoreCompileInputs.cache
+C:\Projetos\Trabalho\VoxToWav\Vox2WavExample\obj\Debug\Vox2WavExample.csproj.CopyComplete
+C:\Projetos\Trabalho\VoxToWav\Vox2WavExample\bin\Debug\Vox2WavExample.exe.config
+C:\Projetos\Trabalho\VoxToWav\Vox2WavExample\bin\Debug\Vox2WavExample.exe
+C:\Projetos\Trabalho\VoxToWav\Vox2WavExample\bin\Debug\Vox2WavExample.pdb
+C:\Projetos\Trabalho\VoxToWav\Vox2WavExample\obj\Debug\Vox2WavExample.Properties.Resources.resources
+C:\Projetos\Trabalho\VoxToWav\Vox2WavExample\obj\Debug\Vox2WavExample.exe
+C:\Projetos\Trabalho\VoxToWav\Vox2WavExample\obj\Debug\Vox2WavExample.pdb
+C:\Projetos\Trabalho\VoxToWav\Vox2WavExample\bin\Debug\AudioFormatLib.dll
+C:\Projetos\Trabalho\VoxToWav\Vox2WavExample\bin\Debug\AudioFormatLib.pdb

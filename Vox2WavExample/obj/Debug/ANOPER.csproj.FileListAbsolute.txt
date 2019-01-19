@@ -1,0 +1,14 @@
+C:\Projetos\Trabalho\Análisador de Operação\ANOPER\bin\Debug\ANOPER.exe.config
+C:\Projetos\Trabalho\Análisador de Operação\ANOPER\bin\Debug\ANOPER.exe
+C:\Projetos\Trabalho\Análisador de Operação\ANOPER\bin\Debug\ANOPER.pdb
+C:\Projetos\Trabalho\Análisador de Operação\ANOPER\bin\Debug\ClassLibrary1.dll
+C:\Projetos\Trabalho\Análisador de Operação\ANOPER\bin\Debug\NAudio.dll
+C:\Projetos\Trabalho\Análisador de Operação\ANOPER\bin\Debug\ClassLibrary1.pdb
+C:\Projetos\Trabalho\Análisador de Operação\ANOPER\bin\Debug\NAudio.xml
+C:\Projetos\Trabalho\Análisador de Operação\ANOPER\obj\Debug\ANOPER.csprojAssemblyReference.cache
+C:\Projetos\Trabalho\Análisador de Operação\ANOPER\obj\Debug\ANOPER.Properties.Resources.resources
+C:\Projetos\Trabalho\Análisador de Operação\ANOPER\obj\Debug\ANOPER.csproj.GenerateResource.cache
+C:\Projetos\Trabalho\Análisador de Operação\ANOPER\obj\Debug\ANOPER.csproj.CoreCompileInputs.cache
+C:\Projetos\Trabalho\Análisador de Operação\ANOPER\obj\Debug\ANOPER.csproj.CopyComplete
+C:\Projetos\Trabalho\Análisador de Operação\ANOPER\obj\Debug\ANOPER.exe
+C:\Projetos\Trabalho\Análisador de Operação\ANOPER\obj\Debug\ANOPER.pdb
