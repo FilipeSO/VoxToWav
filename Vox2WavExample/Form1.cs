@@ -20,9 +20,9 @@ namespace ANOPER
         {
             InitializeComponent();
             string strAudioFilePath = Directory.GetFiles(Environment.CurrentDirectory, "VOXAudioSample.vox")[0];
-            Vox2Wav.Decode(strAudioFilePath, out string wavFilePath);
-            WavFileFormat.Normalize(wavFilePath, out string normWavFilePath);
-            SoundPlayer simpleSound = new SoundPlayer(normWavFilePath);
+            string wavFilePath = strAudioFilePath.Replace(".vox",".wav");
+            Vox2Wav.Decode(strAudioFilePath, wavFilePath, true);
+            SoundPlayer simpleSound = new SoundPlayer(wavFilePath);
             simpleSound.Play();
         }
 

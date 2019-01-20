@@ -4,6 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.IO;
+using NAudio.Wave;
+
 namespace AudioFormatLib
 {
     public class Vox2Wav
@@ -13,12 +15,12 @@ namespace AudioFormatLib
         static bool computedNextStepSizeOnce = false;
         static int[] possibleStepSizes = new int[49] { 16, 17, 19, 21, 23, 25, 28, 31, 34, 37, 41, 45, 50, 55, 60, 66, 73, 80, 88, 97, 107, 118, 130, 143, 157, 173, 190, 209, 230, 253, 279, 307, 337, 371, 408, 449, 494, 544, 598, 658, 724, 796, 876, 963, 1060, 1166, 1282, 1411, 1552 };
 
-        public static void Decode(string inputFile, out string outputFile)
+        public static void Decode(string inputFile, string outputFile, bool normalize)
         {
-            outputFile = String.Format("{0}\\{1}.wav", Path.GetDirectoryName(inputFile), Path.GetFileNameWithoutExtension(inputFile));
+            string decodedOutput = outputFile + "decoded";
             using (FileStream inputStream = File.Open(inputFile, FileMode.Open))
             using (BinaryReader reader = new BinaryReader(inputStream))
-            using (FileStream outputStream = File.Create(outputFile))
+            using (FileStream outputStream = File.Create(decodedOutput))
             using (BinaryWriter writer = new BinaryWriter(outputStream))
             {
                 // Note that 32-bit integer values always take up 4 bytes.
@@ -44,7 +46,7 @@ namespace AudioFormatLib
                 writer.Write(16000);
                 // BlockAlign: NumChannels * BitsPerSample / 8. I rounded this up to 2. It sounds best this way.
                 writer.Write((short)2);
-                // BitsPerSample: I will set this as 12 (12 bits per raw output sample as per the VOX specification).
+                // BitsPerSample: I will set this as 16 (16 bits per raw output sample as per the VOX specification).
                 writer.Write((short)16);
                 // Subchunk2ID: "data"
                 writer.Write(0x61746164);
@@ -62,6 +64,40 @@ namespace AudioFormatLib
                     writer.Write(TruncateSignalIfNeeded());
                 }
             }
+            if (normalize)
+            {
+                float max = 0;
+                using (var reader = new AudioFileReader(decodedOutput))
+                {
+                    // find the max peak
+                    float[] buffer = new float[reader.WaveFormat.SampleRate];
+                    int read;
+                    do
+                    {
+                        read = reader.Read(buffer, 0, buffer.Length);
+                        for (int n = 0; n < read; n++)
+                        {
+                            var abs = Math.Abs(buffer[n]);
+                            if (abs > max) max = abs;
+                        }
+                    } while (read > 0);
+
+                    if (max == 0 || max > 1.0f) throw new InvalidOperationException("Arquivo não pode ser normalizado");
+
+                    // rewind and amplify
+                    reader.Position = 0;
+                    reader.Volume = 1.0f / max;
+
+                    // write out to a new WAV file
+                    WaveFileWriter.CreateWaveFile16(outputFile, reader);
+                }
+                File.Delete(decodedOutput);
+            }
+            else
+            {
+                File.Move(decodedOutput, outputFile);
+            }
+
         }
 
         static short TruncateSignalIfNeeded()
